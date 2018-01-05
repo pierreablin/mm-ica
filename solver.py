@@ -32,7 +32,7 @@ def mmica(X, max_iter=200, tol=None, n_cg_iter=1, verbose=False):
     Returns
     -------
 
-    W : array, shape (n_components, n_components)
+    W : array, shape (n_sources, n_sources)
         Estimated un-mixing matrix.
 
     '''
